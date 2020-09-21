@@ -77,7 +77,7 @@ module "team_devops" {
 `Step 3-` Run the following command to apply changes to your GitHub account
 
 ```
-terraform apply
+terraform init && terraform apply
 ```
 
 ### **Example Organization Structure on Github**
